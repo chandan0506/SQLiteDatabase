@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SQLiteDatabase</string>
+    <string name="slogan">Explore our World</string>
+    <string name="signup">Insert</string>
+    <string name="login">Show Data</string>
+    <string name="title_activity_sign_up">Insert Data</string>
+    <string name="insert">Insert</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>
