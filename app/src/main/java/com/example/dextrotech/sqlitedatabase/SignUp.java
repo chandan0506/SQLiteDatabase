@@ -37,6 +37,7 @@ public class SignUp extends AppCompatActivity {
         });
     }
 
+	//TEST PUSHING
     public void intializeContent() {
         editTextName = (EditText) this.findViewById(R.id.edit_text_name);
         editTextEmail = (EditText) this.findViewById(R.id.edit_text_email);
