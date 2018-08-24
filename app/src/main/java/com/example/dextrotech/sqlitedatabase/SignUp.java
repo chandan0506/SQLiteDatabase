@@ -10,10 +10,9 @@ import android.widget.Toast;
 import com.example.dextrotech.sqlitedatabase.Database.InsertData;
 import com.example.dextrotech.sqlitedatabase.Database.TestDatabase;
 import com.example.dextrotech.sqlitedatabase.SetterGetter.SetGet;
-import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
 import java.util.Calendar;
 
-public class SignUp extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
+public class SignUp extends AppCompatActivity {
     private EditText editTextName;
     private EditText editTextEmail;
     private EditText editTextMobile;
@@ -46,7 +45,7 @@ public class SignUp extends AppCompatActivity implements DatePickerDialog.OnDate
         editTextConfirmPassword = (EditText) this.findViewById(R.id.edit_text_confirm_password);
         buttonSignUp = (Button) this.findViewById(R.id.button_signup_signup);
         editTextAge = (EditText) this.findViewById(R.id.edit_text_age);
-        editTextAge.setOnClickListener(new View.OnClickListener() {
+        /*editTextAge.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Calendar now = Calendar.getInstance();
@@ -58,15 +57,15 @@ public class SignUp extends AppCompatActivity implements DatePickerDialog.OnDate
                 );
                 dpd.show(getFragmentManager(), "Datepickerdialog");
             }
-        });
+        });*/
     }
 
-    @Override
+    /*@Override
     public void onDateSet(DatePickerDialog view, int year, int monthOfYear, int dayOfMonth) {
         date = "" + dayOfMonth + "/" + (monthOfYear + 1) + "/" + year;
         editTextAge.setText(date);
 
-    }
+    }*/
 
     public void takingValue() {
         if(checking()) {
